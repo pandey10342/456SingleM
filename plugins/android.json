@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "uk.co.workingedge.phonegap.plugin.launchnavigator": {
+      "GOOGLE_API_KEY_FOR_ANDROID": "",
+      "OKHTTP_VERSION": "3.12.0",
+      "PACKAGE_NAME": "com.restaurant.appetics"
+    },
+    "cordova-plugin-admobpro": {
+      "ADMOB_APP_ID": "ca-app-pub-6871330764548204~5867465548",
+      "PLAY_SERVICES_VERSION": "16.0.0",
+      "PACKAGE_NAME": "com.restaurant.appetics"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-actionsheet": {
+      "PACKAGE_NAME": "com.restaurant.appetics"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.restaurant.appetics"
+    },
+    "cordova-plugin-extension": {
+      "PACKAGE_NAME": "com.restaurant.appetics"
+    }
+  }
+}
