@@ -65,12 +65,12 @@ autoShow:true
 };
 
 function bannerAd(){
-AdMob.createBanner(admobid,success,failure);
+AdMob.createBanner(admobid);
 }
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-	
+	AdMob.createBanner(admobid);
 	try {
 		
 		navigator.splashscreen.hide();
