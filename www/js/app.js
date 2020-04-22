@@ -64,7 +64,7 @@ banner: 'ca-app-pub-6871330764548204/6787711262'
 };
 
 function bannerAd(){
-Admob.createBanner({
+ons.Admob.createBanner({
 adId:admobid.banner,
 position:Admob.AD_POSITION.TOP_CENTER,
 autiShow:true
