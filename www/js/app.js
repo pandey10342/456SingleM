@@ -61,6 +61,7 @@ var empty = function(data) {
 
 var admobid = {
 banner: 'ca-app-pub-6871330764548204/6787711262',
+isTesting: false,
 autoShow:true
 };
 
