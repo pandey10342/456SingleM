@@ -60,14 +60,19 @@ var empty = function(data) {
 }
 
 var admobid = {
-banner: '',
+banner: 'ca-app-pub-6871330764548204/6787711262',
 autoShow:true
 };
+
+function bannerAd(){
+	AdMob.createBanner(admobid);
+	
+}
 
 document.addEventListener("deviceready", onDeviceReady, false);
 
 function onDeviceReady() {
-	AdMob.createBanner(admobid);
+	
 	try {
 		
 		navigator.splashscreen.hide();
